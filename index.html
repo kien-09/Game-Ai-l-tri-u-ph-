@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ai là triệu phú</title>
+    <link rel="stylesheet" href="altp.css">
+</head>
+<body>
+<div id="wrapper">
+    <button id="back"
+            style="background-color: gold; color: black; border: 1px solid black ; margin: 3px 5px; padding: 5px 7px">
+        <--
+    </button>
+    <div id="welcomeScreen" class="hide">
+        <input id="name" placeholder="    Nhập tên người chơi">
+        <button id="startBtn">Start</button>
+        <button id="rankBtn">Ranking</button>
+        <button id="instructBtn">Instruct</button>
+
+
+    </div>
+    <div id="ranking"
+         style="font-size: 40px;font-weight: bold;color: black; background-color: aquamarine; text-align: center;width: 80%; margin-left: 60px; margin-top: 70px">
+    </div>
+    <div id="guide">
+        <h1 style="margin-left: 220px"> Hướng dẫn</h1>
+        <h3 style="color:white; padding-left: 7px">
+            1. Người chơi lần lượt trả lời câu hỏi của chương trình đưa ra,sẽ có 4 đáp án,người chơi lựa chọn 1 đáp án
+            đúng duy nhất. <br><br>
+            2. Mỗi câu trả lời đúng người chơi sẽ có 100 điểm.Nếu trả lời sai số điểm được tính tại mốc gần nhất mà
+            người chơi đạt được.<br><br>
+            3. Chúc người chơi may mắn và dành được điểm số thật cao. Goodluck!!!
+        </h3>
+        <h3 style="margin-left: 5px">Lưu ý: Người chơi không được bấm thoát ra ngoài màn hình khi đang trả lời câu hỏi,
+            điều này sẽ khiến thành tích của người chơi không được ghi nhận. Xin cảm ơn !</h3>
+    </div>
+
+    <div id="questionScreen" class="hide">
+
+        <div id="question">Câu hỏi</div>
+        <div id="answers">
+            <div id="answer_1">
+                <input type="radio" name="answer"/>
+            </div>
+            <div id="answer_2">
+                <input type="radio" name="answer"/>
+            </div>
+            <div id="answer_3">
+                <input type="radio" name="answer"/>
+            </div>
+            <div id="answer_4">
+                <input type="radio" name="answer"/>
+            </div>
+        </div>
+        <div style="font-size: 30px;font-weight: bold;color: black; background-color: burlywood; text-align: center;width: 30%; margin-left: 213px; margin-top: 70px "
+             id="userName"></div>
+        <div style="font-size: 30px;font-weight: bold;color: black; background-color: burlywood; text-align: center;width: 30%; margin-left: 213px "
+             id="point"></div>
+    </div>
+</div>
+
+</body>
+<script src="ui.js"></script>
+<script src="sound.js"></script>
+<script src="Altp.js"></script>
+
+</html>
