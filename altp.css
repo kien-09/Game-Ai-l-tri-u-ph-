@@ -3,7 +3,8 @@
     border: 1px solid black;
     width: 600px;
     height: 630px;
-    margin-left: 630px;
+    margin-left: 650px;
+    margin-top: 168px;
 }
 
 .hide {
@@ -47,12 +48,11 @@
 }
 
 #question {
-    margin-top: 100px;
     width: 80%;
     text-align: center;
     border-radius: 4px;
     border: 1px solid black;
-    margin: 100px auto 50px auto;
+    margin: 68px auto 50px auto;
     padding: 5px;
     background-color: black;
     color: white;
